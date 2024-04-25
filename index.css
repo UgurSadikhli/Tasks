@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  background-color: #e1f7f5;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.divListFirst {
+  background-color: #9ac8cd;
+  height: 35rem;
+  width: 33rem;
+  border-radius: 20px;
+
+}
+.divList {
+  background-color: #9ac8cd;
+  overflow-y: auto;
+  height: 35rem;
+  width: 32rem;
+  border-radius: 20px;
+  z-index: 1;
+}
+.divList::-webkit-scrollbar {
+  width: 7px;
+}
+.divList::-webkit-scrollbar-track {
+  color: transparent;
+}
+
+.divList::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+#filter {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+hr {
+  border: none; 
+  height: 1px; 
+  background-color: #333;
+  margin: 5px 0; 
+}
+
+label{
+    font-family:sans-serif;
+}
+
+ul{
+    font-family:sans-serif;
+
+}
