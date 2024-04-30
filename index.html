@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Photo uploader</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <h1>Upload Photos</h1>
+    <form
+      action="http://localhost:3000/upload"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="photos"  multiple />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
